@@ -1,32 +1,21 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "dffffffff",
+      "mobile": "666659",
+      "email": "66666@gmail.com",
+      "password": "4444444",
+      "id": 7
     },
     {
-      "name": "dfdd",
-      "mobile": "23422424",
-      "email": "244ddd@gmail.com",
-      "password": "12334556",
-      "id": 2
-    },
-    {
-      "name": "Nizami",
-      "mobile": "123412123123",
-      "email": "nizami@gmail.com",
-      "password": "1234",
-      "id": 3
+      "name": "ali",
+      "mobile": "757888",
+      "email": "hrteur@gmail.com",
+      "password": "48899",
+      "id": 8
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }

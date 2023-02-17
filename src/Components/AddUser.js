@@ -13,12 +13,7 @@ const [formData,setFormData]= useState({
 
 //ADD PERSON====================
 const handleFormSubmit = async(e)=>{
-    let response = await axios.post("http://localhost:5000/posts", formData)
-    if(response){
-        alert("data submitted successfully")
-    }else{
-        alert("something went wrong!")
-    }
+    await axios.post("http://localhost:5000/posts", formData)
     setFormData({
         name: "",
         mobile: "",
