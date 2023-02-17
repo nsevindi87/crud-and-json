@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "dfdd",
+      "mobile": "23422424",
+      "email": "244ddd@gmail.com",
+      "password": "12334556",
+      "id": 2
+    },
+    {
+      "name": "Nizami",
+      "mobile": "123412123123",
+      "email": "nizami@gmail.com",
+      "password": "1234",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
