@@ -13,7 +13,6 @@ const UserDashboard = () => {
         id:""
     })
 
-
     //GET DATA ====================
     const getData = async () => {
         await axios
@@ -27,12 +26,9 @@ const UserDashboard = () => {
         getData()
     }
     
-    
-
     useEffect(() => {
         getData()
     }, [data])
-
 
 
     return (
@@ -40,7 +36,6 @@ const UserDashboard = () => {
             <div className='container mt-5'>
             <hr/>
             <h1>User Dashboard</h1>
-                
             <table className="table table-dark table-hover">
                 <thead>
                     <tr>
@@ -76,7 +71,7 @@ const UserDashboard = () => {
             </table>
         </div>
 
-            <UpdateUser getData={getData} setUpdateData={setUpdateData} updateData={updateData}/>
+        <UpdateUser getData={getData} setUpdateData={setUpdateData} updateData={updateData}/>
         </div>
     )
 }

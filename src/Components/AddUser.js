@@ -22,9 +22,6 @@ const AddUser = () => {
         })
     }
 
-
-
-
     return (
         <div className='container'>
             <div className='row'>
@@ -75,9 +72,6 @@ const AddUser = () => {
                     <button onClick={handleFormSubmit} className='btn btn-success'>Add User</button>
                 </div>
             </div>
-
-            
-
         </div>
     )
 }
